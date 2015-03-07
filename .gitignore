@@ -3,6 +3,24 @@
 *.lo
 *.o
 *.obj
+// the structure
+struct C {
+ int val;
+char visibil;
+};
+
+struct battery{
+C *top ;
+battery* next;
+};
+
+// la fonction
+int som(battery *p){
+if(p!=NULL){ 
+ C* c=p->top;
+}
+return p;
+}
 
 # Precompiled Headers
 *.gch
